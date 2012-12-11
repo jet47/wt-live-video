@@ -27,4 +27,4 @@ add_executable(${PROJECT_NAME} ${HEADER_FILES} ${SOURCE_FILES})
 target_link_libraries(${PROJECT_NAME} debug;${Wt_DEBUG_LIBRARY} optimized;${Wt_LIBRARY} 
                                       debug;${Wt_HTTP_DEBUG_LIBRARY} optimized;${Wt_HTTP_LIBRARY} 
                                       debug;${Wt_EXT_DEBUG_LIBRARY} optimized;${Wt_EXT_LIBRARY})
-target_link_libraries(${PROJECT_NAME} ${Wt_LIBRARIES} ${FFMPEG_LIBRARIES} ${OpenCV_LIBS} ${Boost_LIBRARIES})
+target_link_libraries(${PROJECT_NAME} ${FFMPEG_LIBRARIES} ${OpenCV_LIBS} ${Boost_LIBRARIES})
